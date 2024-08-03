@@ -1,0 +1,120 @@
+body, html{
+    background: linear-gradient(to right, #722dfc, hsl(260, 89%, 75%));
+    height: 100%;
+}
+
+hr{
+    margin-bottom: unset !important;
+}
+.img-header{
+    padding-top: 50px !important;
+}
+
+.container{
+    border-color: 1px solid red !important;
+}
+
+nav h2{
+    margin-bottom: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #475671;
+}
+
+.form-box{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 380px;
+    height: 503px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+}
+
+form{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+label{
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 8px;
+}
+
+label.valor{
+    padding-bottom: 3px;
+    margin-top: 10px;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 10px;
+    border-color: #BBBBBB;
+    font-size: 16px;
+    color: #555555;
+}
+
+select, select:focus {
+    outline: 0;
+}
+
+input.insert-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    margin-bottom: 10px;
+}
+
+input, input:focus{
+    outline: 0;
+}
+
+input.button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background: #772FD3;
+    border: unset;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+div.resposta{
+    margin-top: 30px;
+    width: 80%;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+}
+
+div.resposta h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: unset;
+    padding: 20px;
+}
+
